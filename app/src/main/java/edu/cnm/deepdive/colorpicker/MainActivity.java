@@ -1,5 +1,6 @@
 package edu.cnm.deepdive.colorpicker;
 
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
@@ -13,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements OnSeekBarChangeLi
   SeekBar red, green, blue;
   ConstraintLayout constraintLayout;
   TextView color, rr, gg, bb;
-  TextView hex;
+  EditText hex;
   int r=0, g=0, b=0;
 
   @Override
